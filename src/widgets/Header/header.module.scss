@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  justify-content: center;
+}
+.link {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.33;
+  text-shadow: var(--neon-effect);
+
+  &:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+  }
+}

@@ -1,0 +1,12 @@
+@import 'normalize.css';
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('../../shared/assets/background.jpg') no-repeat center/cover;
+}
+
+.main {
+  flex: 1 1 auto;
+}
